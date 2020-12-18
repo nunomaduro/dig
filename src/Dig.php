@@ -67,7 +67,7 @@ final class Dig
                 '',
             ]);
 
-            if ($i > 2) {
+            if ($i > 0) {
                 break;
             }
         }
