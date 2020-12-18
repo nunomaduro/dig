@@ -1,0 +1,44 @@
+{
+    "name": "nunomaduro/dig",
+    "description": "A beautiful debug tool for the command line.",
+    "keywords": ["php", "cli", "command", "console", "debug"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nuno Maduro",
+            "email": "enunomaduro@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "nunomaduro/collision": "^5.1",
+        "symfony/var-dumper": "^5.2"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16.4",
+        "phpstan/phpstan": "^0.12.48"
+    },
+    "autoload": {
+        "psr-4": {
+            "NunoMaduro\\Dig\\": "src/"
+        },
+        "files": [
+            "src/Functions.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist"
+    },
+    "scripts": {
+        "lint": "php-cs-fixer fix -v",
+        "test:lint": "php-cs-fixer fix -v --dry-run",
+        "test:types": "phpstan analyse --ansi --memory-limit=0",
+        "test": [
+            "@test:lint",
+            "@test:types"
+        ]
+    }
+}
