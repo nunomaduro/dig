@@ -4,9 +4,11 @@
 
 <p align="center">
   <a href="https://github.com/nunomaduro/dig/actions"><img src="https://img.shields.io/github/workflow/status/nunomaduro/dig/Tests.svg" alt="Build Status"></img></a>
-  <a href="https://packagist.org/packages/nunomaduro/dig"><img src="https://poser.pugx.org/nunomaduro/dig/d/total.svg" alt="Total Downloads"></a>
-  <a href="https://packagist.org/packages/nunomaduro/dig"><img src="https://poser.pugx.org/nunomaduro/dig/v/master.svg" alt="Latest Stable Version"></a>
-  <a href="https://packagist.org/packages/nunomaduro/dig"><img src="https://poser.pugx.org/nunomaduro/dig/license.svg" alt="License"></a>
+  
+  
+  <a href="https://packagist.org/packages/nunomaduro/dig"><img src="https://poser.pugx.org/nunomaduro/dig/d" alt="Total Downloads"></a>
+  <a href="https://packagist.org/packages/nunomaduro/dig"><img src="https://poser.pugx.org/nunomaduro/dig/v" alt="Latest Stable Version"></a>
+  <a href="https://packagist.org/packages/nunomaduro/dig"><img src="https://poser.pugx.org/nunomaduro/dig/license" alt="License"></a>
 </p>
 
 ---
