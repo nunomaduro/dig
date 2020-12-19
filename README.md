@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/nunomaduro/dig/master/art/example.png" alt="Dig code example" height="300">
+    <img src="https://raw.githubusercontent.com/nunomaduro/dig/master/art/example.png" alt="Dig code example" width="50%">
 </p>
 
 <p align="center">
